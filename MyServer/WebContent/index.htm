@@ -1,0 +1,16 @@
+<html lang="en">
+    <head>
+        <title>File Upload</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form method="POST" action="upload" enctype="multipart/form-data" >
+            Add Image:
+            <input type="file" name="file" id="uploadFile" /><br>
+            <input type="radio" name="mode" value="addface" checked>Add Face<br>
+			<input type="radio" name="mode" value="recognition">Recognition<br>
+			Name: <input type="text" name="name"><br>
+            <input type="submit" value="Upload "/>
+        </form>
+    </body>
+</html>
